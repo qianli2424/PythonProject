@@ -1,1 +1,3 @@
-lesson2.py
+#lesson2.py
+
+print('hello world')
