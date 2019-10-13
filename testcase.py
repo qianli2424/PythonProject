@@ -1,11 +1,8 @@
 # !/usr/bin/python3
 # @Author:千里
 import unittest
-
 import xlrd
-
 from register import Register
-
 
 class TestCase(unittest.TestCase):
     def setUp(self):
