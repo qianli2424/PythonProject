@@ -1,7 +1,8 @@
 # !/usr/bin/python3
 # @Author:千里
 import unittest
-import testcase
+from Day01 import testcase
+
 
 class Test:
     suit = unittest.TestSuite() #创建一个袋子放用例的
