@@ -2,11 +2,10 @@
 # -*- coding=utf8 -*-
 # 文件说明：装载测试用例，运行测试
 import unittest
-from HTMLTestReportCN import HTMLTestRunner
+from HTMLTestReport import HTMLTestRunner
 from unittestDemo import LoginTest
+
 #创建一个用例集合用来装载测试用例
-
-
 suite = unittest.TestSuite()
 #*****装载测试用例，使用TestLoader方法装载用例********
 loader = unittest.TestLoader()
